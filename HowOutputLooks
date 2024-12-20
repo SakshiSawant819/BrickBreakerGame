@@ -1,0 +1,30 @@
+1 . Game Start Screen
+When you launch the game, the window displays the start screen or the initial gameplay screen with all the visual elements and the background music playing.
+•Visuals:
+
+•Background: Black
+•Paddle: Green
+•Ball: Red
+•Bricks: White
+•Score & Level: White text displayed at the top left (Level) and top right (Score)
+
+2 . Ball Hits the Paddle (Sound & Collision)
+•Ball hits the paddle and bounces back. The sound effect paddle_hit.wav will play at this moment.
+•The score doesn't change on this collision, but you will hear the sound of the ball hitting the paddle.
+
+3 . Ball Hits a Brick (Brick Destruction & Sound)
+•The ball hits a brick and destroys it. The brick break sound (brick_break.wav) will play.
+•The score will increase by 5 points.
+•A brick will disappear (replaced by an empty space).
+
+4 . Level Completion
+Once the player destroys all the bricks, the game will show a Level Completed screen with instructions to press Enter to proceed to the next level.
+•Sound: You could play a sound indicating level completion, though not specified in the code.
+
+5 . Game Over (Ball Falls Below Paddle)
+•If the ball falls below the paddle, the game will display a Game Over screen, showing the player's score and prompting the user to press Enter to restart.
+•Sound: Play a Game Over sound (e.g., game_over.wav), though it wasn't included in the code.
+
+6 . Victory (All Levels Cleared)
+Once the player completes all levels, the game will display a Victory screen, congratulating the player.
+•Sound: Play a Victory sound or music indicating the player has won.
